@@ -1,0 +1,54 @@
+body{
+ 
+
+ }
+
+#transferir{
+    width: 100%;
+}
+
+.principal{
+  background: #cccccc;
+  padding: 30px;   
+}
+
+.titula-principal{
+padding-left:20px ;
+ background: #eead2d;  
+}
+
+.titula-c {
+text-align: center;    
+}
+ p{
+ text-align: center;   
+ }
+
+#k1{
+font-size: 25px;    
+}
+
+em strong{
+color:  #a000c9;    
+}
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background: #ffffff;
+    padding: 20px;
+}
+
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imab{
+  width: 50%;   
+}
