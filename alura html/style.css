@@ -1,54 +1,123 @@
-body{
- 
 
+header {
+    background:#eead2d;
+    padding-top:20px;
+}
+
+.caixa{ 
+   position:relative;
+    width: 1640px;
+   margin:0 auto ; 
+}
+
+nav{
+    position:absolute;
+    top:110px;
+    right:0;
+}
+
+
+.cc{
+    display:inline; 
+    margin:0 0 0 15px; 
+}
+
+nav a{
+    text-transform:uppercase;
+    color:#000000;
+    font-weight:bold;
+    font-size:22px;
+    text-decoration:none;
+}
+nav a:hover{
+  color: #000076;
+  text-decoration: underline ;
+}
+
+ #transferir{
+   width: 100%; 
  }
 
-#transferir{
-    width: 100%;
+
+.principal{ 
+ background: #cfcfde; 
+    padding: 23px;
+    box-sizing: border-box;
+    border: 2px #000000 dotted ; 
+
+    border-low :solid ;
 }
 
-.principal{
-  background: #cccccc;
-  padding: 30px;   
+.principal h2{
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.titula-principal{
-padding-left:20px ;
- background: #eead2d;  
+.principal p{
+    margin-top: 16px;
 }
+  
+.titula-c{
+    text-align: center; 
+} 
 
-.titula-c {
-text-align: center;    
-}
- p{
- text-align: center;   
- }
+p{
+ text-align: center; 
+ font-size: 19px;
+} 
 
-#k1{
-font-size: 25px;    
+#k1 {
+    font-size: 25px; 
 }
 
 em strong{
-color:  #a000c9;    
-}
-
-.itens{
-    font-style: italic;
+    color: #a000c9;
 }
 
 .beneficios{
-    background: #ffffff;
-    padding: 20px;
+  padding: 17px;
+   box-sizing: border-box;
+    border: 2px #000000 solid ;
+    margin: 15px;
+    border-radius: 10px;
 }
 
-
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.beneficios h3{
+      font-size: 30px;
+    font-weight: bold;  
 }
 
-.imab{
-  width: 50%;   
+.tt {
+   display: inline-block;
+   vertical-align: top;
+   width: 20%;
+   margin-right: 15%;
+   margin: 55px 11px 35px 155px;
+    
+
+} 
+.itens{
+  font-style: italic;
+  font-size:28px;
+     margin-top:16px ;
+ }
+
+
+
+.imab{ 
+   width: 50%;
+   margin-left: 319px;
+    margin-top:16px
+}
+
+footer{
+    text-align: center;
+    background: url("farelo-t.png");
+    padding: 40px;
+}
+
+.copyright{
+   color:#ffffff;
+   font-size: 16px;
+   margin: 20px 0 0;
 }
